@@ -31,7 +31,7 @@ jobs:
       - name: Upload zip
         if: github.repository == 'josiauh/jcmd'
         run: |
-              gh release upload standalone --clobber dist/*
+              gh release upload standalone --clobber StandaloneRelease.zip
         env:
             GITHUB_TOKEN: ${{ secrets.RELEASETOKEN }}
       
