@@ -1,0 +1,1 @@
+echo Use cmd to use JCMD, because all cmds are bat files.
